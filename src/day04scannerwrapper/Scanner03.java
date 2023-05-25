@@ -6,7 +6,8 @@ public class Scanner03 {
 
     public static void main(String[] args) {
 
-        //Ornek: Kullanicidan iki sayi alip 4 islem yapan ve islemlerin sonuclarini ekrana yazdiran kodu yaziniz
+        //Ornek: Kullanicidan iki sayi alip 4 islem yapan ve islemlerin sonuclarini
+        // ekrana yazdiran kodu yaziniz
         Scanner input = new Scanner(System.in);
         System.out.println("iki sayi giriniz");
 
