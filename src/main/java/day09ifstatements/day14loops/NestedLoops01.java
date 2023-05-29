@@ -1,4 +1,4 @@
-package day14loops;
+package day09ifstatements.day14loops;
 
 public class NestedLoops01 {
     public static void main(String[] args) {

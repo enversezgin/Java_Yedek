@@ -1,4 +1,4 @@
-package day12nestedternaryswitchloops;
+package day10ifstatements.day12nestedternaryswitchloops;
 
 public class Switch01 {
     public static void main(String[] args) {

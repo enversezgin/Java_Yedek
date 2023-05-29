@@ -13,6 +13,7 @@ public class NestedIf01 {
 
            Eger calisan erkek ise;
             65 yasindan buyukse "Emekli Olabilir" yazdiran kodu olusturunuz
+
         */
 
         Scanner input = new Scanner(System.in);

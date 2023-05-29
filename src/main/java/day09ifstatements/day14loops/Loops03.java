@@ -1,4 +1,4 @@
-package day14loops;
+package day09ifstatements.day14loops;
 
 import java.util.Scanner;
 

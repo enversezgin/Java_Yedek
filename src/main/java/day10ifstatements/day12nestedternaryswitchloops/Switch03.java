@@ -1,4 +1,4 @@
-package day12nestedternaryswitchloops;
+package day10ifstatements.day12nestedternaryswitchloops;
 
 import java.util.Scanner;
 
