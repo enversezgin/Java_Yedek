@@ -37,7 +37,8 @@ public class Arrays03 {
         }
         System.out.println(maximum+minimum);//59
 
-        //Ornek 2: String bir array olusturunuz 6 eleman ekleyiniz, yellow dan onceki elemanlari yaziriniz
+        //Ornek 2: String bir array olusturunuz 6 eleman ekleyiniz, yellow dan onceki
+        // elemanlari yaziriniz
         String colors [] = new String [6];
         colors[0]="Red";
         colors[1]="Orange";

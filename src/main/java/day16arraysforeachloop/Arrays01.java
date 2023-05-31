@@ -12,10 +12,12 @@ public class Arrays01 {
 
 
         //Array nasil olusturulur?
+
         String stdNames [] = new String [5];
 
         //Arrayler console a nasil yazdirilir?
         //toString() methodu nu kullanmadan sadece array ismi ile yazdirirsaniz java o Array in adresini yazdirir
+
         System.out.println(Arrays.toString( stdNames));
 
 
@@ -25,6 +27,7 @@ public class Arrays01 {
          */
 
         //Array e eleman ekleme nasil yapilir?
+
         stdNames[2]="Benna";
         stdNames[3]="Abdullah";
         stdNames[4]="Recep";
