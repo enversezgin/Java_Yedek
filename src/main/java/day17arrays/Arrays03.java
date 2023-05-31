@@ -27,9 +27,11 @@ public class Arrays03 {
 
         //2. way : binarySearch() methodu hizli calisir
         /*
-        1)  binarySearch() methodunu sort() kullanmadan kullanmayiniz, cunku  binarySearch() mantigi sirali elemanlar icin gecerlidir.
+        1)  binarySearch() methodunu sort() kullanmadan kullanmayiniz, cunku  binarySearch()
+        mantigi sirali elemanlar icin gecerlidir.
         2)  binarySearch() methodu var olan elemanlar icin size o elemanin index ini verir.
-             binarySearch() methodundan aldiginiz index 0 veya 0 dan buyuk ise bu o eleman arrayde var demektir
+             binarySearch() methodundan aldiginiz index 0 veya 0 dan buyuk ise bu o eleman
+             arrayde var demektir
         3)  binarySearch() methodu olmayan elemanlar icin negatif tamsayi degeri verir.
         "-" isaretinin anlami o eleman yok demektir
         "sayi" ise o eleman olsaydi kacinci eleman olurdu demektir.

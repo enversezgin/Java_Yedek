@@ -5,7 +5,8 @@ import java.util.Scanner;
 
 public class Arrays02 {
     public static void main(String[] args) {
-        // Ornek 1: Kullanicinin coklu data yi bir array e yerlestirebilmesi, istedigi zaman durdurabilmesi icin gereken kodu yaziniz
+        // Ornek 1: Kullanicinin coklu data yi bir array e yerlestirebilmesi, istedigi
+        // zaman durdurabilmesi icin gereken kodu yaziniz
 
         /*
         1)Kullanicidan data almak icin Scanner object olustur
@@ -20,9 +21,6 @@ public class Arrays02 {
 
         String stdNames[] = new String[numOfElements];
         System.out.println("islemi durdurmak icin 'q' ya basiniz");
-
-
-
 
         for (int i = 0; i < stdNames.length;            i++) {
             System.out.println((i + 1) + " . ogrencinin isimini giriniz....");
