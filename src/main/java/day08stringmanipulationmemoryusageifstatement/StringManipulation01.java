@@ -25,8 +25,9 @@ public class StringManipulation01 {
 
         //3. yol
         boolean result5 = t.isBlank();
-        System.out.println(result5);
-        //isBlank() methodu sadece space iceren String ler icin true verir, space disinda bir character var ise false verir
+        System.out.println("isBlank ="+result5);
+        //isBlank() methodu sadece space iceren String ler icin true verir,
+        // space disinda bir character var ise false verir
         //isBlank() methodu bos stringler icin de true verir
         //isBlank() methodu space + hic birsey icin true verir
         //isEmpty() methodu sadece hic birsey icin true verir.
@@ -37,6 +38,7 @@ public class StringManipulation01 {
 
         //                    11111111112
         //          012345678901234567890
+        //           *   *  *
         String r = "Java is easy to learn";
         int idxA = r.indexOf('a');
         System.out.println(idxA);//1
@@ -49,13 +51,15 @@ public class StringManipulation01 {
 
         System.out.println(idxA + idxE + idxI);//14
 
-        //Ornek 4: Bir string deki "Java" kelime sinin ilk olarak kacinci index te kullanildigini gosteren kodu yaziniz
+        //Ornek 4: Bir string deki "Java" kelime sinin ilk olarak kacinci index te kullanildigini gosteren kodu
+        // yaziniz
         //  "Ah Java vah Java sensiz olmuyor Java."
-        //indexOf("Java") kullaniminda siz "Java" kelimesinin ilk gorunumundeki ilk harfin (yani J nin) index ini almis olursunuz
+        //indexOf("Java") kullaniminda siz "Java" kelimesinin ilk gorunumundeki ilk harfin (yani J nin) index ini
+        // almis olursunuz
         String u = "Ah Java vah Java sensiz olmuyor Java.";
 
         int idxJava = u.indexOf("Java");
-        System.out.println(idxJava);//3
+        System.out.println("Java bas index "+idxJava);//3
 
         //indexOf() methodu olmayan characterler icin kullanilirsa her zaman -1 return eder
         int idxjava = u.indexOf("java");

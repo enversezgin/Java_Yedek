@@ -28,10 +28,10 @@ public class Arrays01 {
 
         //Array e eleman ekleme nasil yapilir?
 
-        stdNames[2]="Benna";
-        stdNames[3]="Abdullah";
-        stdNames[4]="Recep";
-        stdNames[0]="Ekim";
+        stdNames[2]="Alper";
+        stdNames[3]="Ahmet";
+        stdNames[4]="Orhan";
+        stdNames[0]="Taha";
         stdNames[1]="Ailana";
 
         System.out.println(Arrays.toString( stdNames));//[Ekim, Ailana, Benna, Abdullah, Recep]

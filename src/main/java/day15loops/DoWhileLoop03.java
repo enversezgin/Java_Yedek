@@ -16,9 +16,6 @@ public class DoWhileLoop03 {
 
         int counter = 0;
 
-
-
-
         do {
             if(counter==4){
                 System.out.println("Hesap Bloke Olmustur");
