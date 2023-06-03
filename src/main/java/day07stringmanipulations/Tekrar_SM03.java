@@ -32,6 +32,15 @@ public class Tekrar_SM03 {
         String name = "   ali cAN    ";
         //split() methodu bir string i istedigimiz karakterden parcalamaya yarar
 
+        String buyukHarfIsim = name.trim().toUpperCase();
+        System.out.println("buyukHarf = " + buyukHarfIsim);
+
+        char ilkIsimIlkHarf = buyukHarfIsim.split(" ")[0].charAt(0);
+        System.out.println(ilkIsimIlkHarf);
+        char ikinciIsimIlkHarf = buyukHarfIsim.split(" ")[1].charAt(0);
+        System.out.println(ikinciIsimIlkHarf);
+
+        System.out.println(ilkIsimIlkHarf + " " + ikinciIsimIlkHarf);
 
 
     }

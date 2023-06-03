@@ -35,21 +35,21 @@ public class Arrays03 {
             minimum = Math.min(minimum, w);
             maximum = Math.max(maximum, w);
         }
-        System.out.println(maximum+minimum);//59
+        System.out.println(maximum + minimum);//59
 
         //Ornek 2: String bir array olusturunuz 6 eleman ekleyiniz, yellow dan onceki
         // elemanlari yaziriniz
-        String colors [] = new String [6];
-        colors[0]="Red";
-        colors[1]="Orange";
-        colors[2]="Blue";
-        colors[3]="Yellow";
-        colors[4]="Green";
-        colors[5]="Brown";
+        String colors[] = new String[6];
+        colors[0] = "Red";
+        colors[1] = "Orange";
+        colors[2] = "Blue";
+        colors[3] = "Yellow";
+        colors[4] = "Green";
+        colors[5] = "Brown";
         System.out.println(Arrays.toString(colors));//[Red, Orange, Blue, Yellow, Green, Brown]
 
-        for (String  w:   colors  ) {
-            if(w.equals("Yellow")){
+        for (String w : colors) {
+            if (w.equals("Yellow")) {
                 break;
             }
             System.out.println(w);
