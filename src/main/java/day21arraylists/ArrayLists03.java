@@ -23,14 +23,5 @@ public class ArrayLists03 {
         int r2= initials.lastIndexOf('a');
         System.out.println(r2);//2
 
-
-
-
-
-
-
-
-
-
     }
 }
