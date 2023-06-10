@@ -1,9 +1,9 @@
-package day20statickeywordconstructors;
-
-import java.sql.SQLOutput;
+package day15loops.day20statickeywordconstructors;
 
 public class CarRunner {
     public static void main(String[] args) {
+
+
         //Siz kendi constructor' inizi olusturdugunuzda java default constructor'i siler
         Car c1= new Car("BMW","M4",2023,false);
         Car c2= new Car("Audi","R8",2022,true);

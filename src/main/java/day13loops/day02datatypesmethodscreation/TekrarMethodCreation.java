@@ -1,4 +1,4 @@
-package day02datatypesmethodscreation;
+package day13loops.day02datatypesmethodscreation;
 
 public class TekrarMethodCreation {
     public static void main(String[] args) {

@@ -25,14 +25,10 @@ public class ArrayList02 {
         }
         System.out.println(minDiff);
 
-
-
         for (int i = 1; i < nums.size(); i++) {
             if(nums.get(i)-nums.get(i-1)==minDiff){
                 System.out.println(nums.get(i-1) + " and "+ nums.get(i));
             }
         }
-
-
     }
 }

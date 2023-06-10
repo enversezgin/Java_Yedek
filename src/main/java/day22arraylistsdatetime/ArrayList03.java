@@ -3,7 +3,6 @@ package day22arraylistsdatetime;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-
 public class ArrayList03 {
     public static void main(String[] args) {
     /*
@@ -30,12 +29,10 @@ public class ArrayList03 {
 
             if(myList.contains(letter)){
                 myList.set(myList.indexOf(letter), "Buldum!" );
-
             }else{
                 myList.add(letter);
             }
             System.out.println(myList);
-
             counter++;
         }while (true);
 

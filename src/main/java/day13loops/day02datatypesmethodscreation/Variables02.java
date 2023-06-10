@@ -1,4 +1,4 @@
-package day02datatypesmethodscreation;
+package day13loops.day02datatypesmethodscreation;
 
 public class Variables02 {
     /*

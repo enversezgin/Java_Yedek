@@ -32,6 +32,5 @@ public class ArrayList01 {
         }else {
             System.out.println("At least one element is not unique in the list");
         }
-
     }
 }

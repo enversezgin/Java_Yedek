@@ -1,4 +1,4 @@
-package day20statickeywordconstructors;
+package day15loops.day20statickeywordconstructors;
 
 public class Car {
 
