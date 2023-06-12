@@ -22,8 +22,8 @@ public class Arrays02 {
         String stdNames[] = new String[numOfElements];
         System.out.println("islemi durdurmak icin 'q' ya basiniz");
 
-        for (int i = 0; i < stdNames.length;            i++) {
-            System.out.println((i + 1) + " . ogrencinin isimini giriniz....");
+        for (int i = 0 ; i < stdNames.length ; i++) {
+            System.out.println((i + 1) + " . ogrencinin ismini giriniz....");
             String name = input.next();
 
             if(name.equalsIgnoreCase("q")){

@@ -41,17 +41,16 @@ public class Arrays01 {
         System.out.println(stdNames[4]);//Recep
         System.out.println(stdNames[0]);//Ekim
 
+        System.out.println(stdNames[2]);
+
         //Ornek 1: Arraydeki her elemanin sonuna "!" isareti koyarak ekrana yazdiriniz.
         // length() string lerde method (parantezli), arraylerde ise parantezsiz yazilir(method degil)
         //  0       1       2       3       4
         //[Ekim, Ailana, Benna, Abdullah, Recep]
 
 
-        for (int i = 0; i <stdNames.length ;            i++) {
-            System.out.println(stdNames[i]+"*");
-
+        for (int i = 0; i <stdNames.length ; i++) {
+            System.out.println(stdNames[i]+"!");
         }
-
-
     }
 }

@@ -8,7 +8,7 @@ public class Arrays04 {
         String s = "Java is easy. Learn Java earn money.";
 
         String words[] = s.split(" ");
-        System.out.println(Arrays.toString(words));//[Java, is, easy., Learn, Java, earn, money.]
+        System.out.println(Arrays.toString(words)); //[Java, is, easy., Learn, Java, earn, money.]
         System.out.println(words.length);
 
         //Ornek 2: Size verilen bir cumlede kac harf oldugunu gosteren kodu yaziniz.

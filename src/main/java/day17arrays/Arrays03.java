@@ -1,7 +1,6 @@
 package day17arrays;
 
 import java.util.Arrays;
-
 public class Arrays03 {
     public static void main(String[] args) {
         //Specific bir elemanin array de olup olmadigini anlamak icin gereken kodu yaziniz.
@@ -39,8 +38,8 @@ public class Arrays03 {
 
         Arrays.sort(names);
         int result = Arrays.binarySearch(names, el);
-        System.out.println(Arrays.toString(names));//[A, C, K, R, S]
-        System.out.println(result);
+        System.out.println(Arrays.toString(names)); //[A, C, K, R, S]
+        System.out.println(result);                 // 3 (40. satir sorgusundan geliyor)
 
         if(result<0){
             System.out.println("Array does not have "+ el);
@@ -49,14 +48,14 @@ public class Arrays03 {
         }
 
         int num1=Arrays.binarySearch(names,"A");
-        System.out.println(num1);//0 ==> var hemde indexi sifir
+        System.out.println(num1);                       //0 ==> var hemde indexi sifir
 
         int num2=Arrays.binarySearch(names,"K");
-        System.out.println(num2);//2==> var hem de indexi 2
+        System.out.println(num2);                       //2==> var hem de indexi 2
 
         int num3=Arrays.binarySearch(names,"U");
-        System.out.println(num3);//-6 ==> "-" bu eleman yok demek
-        //"6"==> ise olsaydi  6. eleman olurdu demek
+        System.out.println(num3);                       //-6 ==> "-" bu eleman yok demek
+                                                        //"6"==> ise olsaydi  6. eleman olurdu demek
 
 
     }

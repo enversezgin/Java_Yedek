@@ -1,7 +1,6 @@
 package day16arraysforeachloop;
 
 import java.util.Arrays;
-
 public class Arrays02 {
     public static void main(String[] args) {
         //Ornek 1 :  String array olusturun, icine 5 tane eleman ekleyin, ilk eleman ile
@@ -26,7 +25,6 @@ public class Arrays02 {
         brr[3] = "Oslo";
         brr[4] = "Erzurum";
         System.out.println(Arrays.toString(brr));
-
 
         //1 yol for loop
 
@@ -54,7 +52,6 @@ public class Arrays02 {
         }
         System.out.println(sum);//30
 
-
         //Ornek 3 Notlar adinda Integer bir array olusturunuz icine 6 tane not yerlestiniz ve not ortalamasini ekrana yazdiriniz
 
         int notlar[] = new int[6];
@@ -67,15 +64,12 @@ public class Arrays02 {
 
         System.out.println(Arrays.toString(notlar));//[50, 70, 60, 40, 90, 80]
 
-
         int toplam=0;
         //[50, 70, 60, 40, 90, 80]
         for (int w : notlar ){
 
             toplam= toplam+w;
-
         }
         System.out.println(toplam / notlar.length);
-
     }
 }

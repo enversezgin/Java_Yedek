@@ -1,7 +1,5 @@
 package day17arrays;
-
 import java.util.Arrays;
-
 public class Arrays01 {
     public static void main(String[] args) {
 
@@ -36,7 +34,6 @@ public class Arrays01 {
 
             if(w.length()<5){
                 System.out.println(w);
-
             }
         }
 
@@ -58,8 +55,5 @@ public class Arrays01 {
             }
             System.out.println(w);
         }
-
-
     }
-
 }
