@@ -1,4 +1,4 @@
-package day14loops.day25inheritance;
+package day25inheritance;
 
 public class Animal {
     //Inheritance ==> miras alma

@@ -1,4 +1,4 @@
-package day15loops.day20statickeywordconstructors;
+package day20statickeywordconstructors;
 
 public class Student {
     /*

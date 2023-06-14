@@ -1,4 +1,4 @@
-package day19passbyvaluemethodoverloading.day23datetimevarargs;
+package day23datetimevarargs;
 
 import java.time.LocalDate;
 import java.util.Scanner;
