@@ -43,4 +43,3 @@ public class Md01 {
         System.out.println(sum);//8
     }
 }
-//hocam vites arttirana kadar sorun yok da sonrasinda motor cekmiyor :)

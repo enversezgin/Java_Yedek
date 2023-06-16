@@ -13,7 +13,7 @@ public class Switch02 {
         int numOfMonth = input.nextInt();
 
         switch (numOfMonth){
-            case 1:                               // ; degil : dikat
+            case 1:
                 System.out.println("January");
             case 2:
                 System.out.println("February");

@@ -2,8 +2,6 @@ package day12nestedternaryswitchloops;
 
 public class Switch01 {
     public static void main(String[] args) {
-        //NOTE: java da kodlarimiz yazarken nested yapilardan mumkun oludgunca uzak durmaliyiz. Cunku bu tarz yapilar uygulamayi yavaslatir.(Time Consuming)
-
         //Example 1: Gun isimlerini verince kacinci gun oldugunu yazdiran kodu yaziniz
         //           Sunday==>1  . . .  Saturday==>7
 

@@ -1,4 +1,4 @@
-package day26polymorhphism;
+package day26polymorphism;
 
 public class Animal {
     /*
