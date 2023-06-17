@@ -6,10 +6,11 @@ public class Student {
     /*
     Encapsulation nedir? Data Hiding (veri saklama)
     Data nasil saklanir ?
-    Access modifierlarini private yaparak datayi diger classlardan gorunmez hale getiririm.Boylece datayi saklarim
+    Access modifierlarini private yaparak datayi diger classlardan gorunmez hale getiririm.
+    Boylece datayi saklarim
     Encapsulation yaptigimiz datayi istersek diger classlardan okuyabiliriz
     Nasil okuruz?
-    getmethod olusturarak encapsulate edilmis datanin degerini okuyabiliriz
+    get-method olusturarak encapsulate edilmis datanin degerini okuyabiliriz
     1)get methodlar public olur
     2)get methodun return type i okudugu variable in return type i ile ayni olur
     3)get method bir boolean variable icin olusturulduysa ismi is ile baslar

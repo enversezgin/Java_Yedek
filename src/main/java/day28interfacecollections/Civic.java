@@ -1,12 +1,16 @@
-package day27abstraction;
+package day28interfacecollections;
 
 public class Civic implements Ac,Engine,Security {
     @Override
     public void cool() {
         System.out.println("Civic cools perfectly");
     }
-    //Interface
 
+    @Override
+    public void run() {
+        System.out.println("AC runs super");
+    }
+    //Interface
 
 
 }
