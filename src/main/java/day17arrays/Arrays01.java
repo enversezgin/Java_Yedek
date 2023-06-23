@@ -33,7 +33,7 @@ public class Arrays01 {
         for(String w: stdNames){
 
             if(w.length()<5){
-                System.out.println(w);
+                System.out.println("5'ten kisa isim : "+w);
             }
         }
 

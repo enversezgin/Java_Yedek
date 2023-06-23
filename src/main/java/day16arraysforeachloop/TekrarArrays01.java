@@ -15,16 +15,17 @@ public class TekrarArrays01 {
         kutuk [3] = "Mustafa Alper";
 
         System.out.println(Arrays.toString(kutuk));
-        System.out.println(kutuk[2]);
+        System.out.println("3 . Array : "+kutuk[3]);
 
         for (int i = 0; i < kutuk.length; i++) {
             System.out.println(kutuk[i]+" SEZGIN");
         }
+
         int toplamHarf = 0 ;
+
         for ( int j = 0 ; j<kutuk.length ; j++ ) {
             toplamHarf = toplamHarf + kutuk[j].length();
             System.out.println(toplamHarf);
-
         }
 
         int harfToplami =0;
