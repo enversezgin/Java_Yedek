@@ -1,0 +1,27 @@
+/*
+        >map() methodu stream de bulunana her bir elemanda degisiklik yapilacagi zaman kullanilir.
+        >filter() methodu stream icerisinde belirli datalari cekmek icin kullanilir
+        >stream() methodu listteki elemanlari akis haline getirir. Hafizada yer tutmaz.
+        >forEach() methodu streamdeki her elemani alip yazdirmaya yarar.
+        >distinct() methodu stream deki elemanlarin tekrarsiz olanlarak kullanmaya yarar. stream den sonra kullanmak
+            Java'yi yormamak icin best practice.
+        >reduce() streamde coklu datanin tek bir dataya indirgenecegi (reduction) zaman kullanilir.
+            identity ==> etkisiz eleman yazilir
+
+                 >map() methodu stream de bulunana her bir elemanda degisiklik yapilacagi zaman kullanilir.
+                 >filter() methodu stream icerisinde belirli datalari cekmek icin kullanilir
+                 >stream() methodu listteki elemanlari akis haline getirir. Hafizada yer tutmaz.
+                 >forEach() methodu streamdeki her elemani alip yazdirmaya yarar.
+                 >distinct() methodu stream deki elemanlarin tekrarsiz olanlarak kullanmaya yarar. stream den sonra kullanmak
+                     Java'yi yormamak icin best practice.
+                 >reduce() streamde coklu datanin tek bir dataya indirgenecegi (reduction) zaman kullanilir.
+                     identity ==> etkisiz eleman yazilir
+                     t baslangic degerini identity den alir, sonraki degerlerini action dan alir
+                     u tum degerlerini streamden alir
+                     t identity olmadigindan degerini streamden alir u da streamdeki diger degeri alir
+                     identity kullanmadigimizda Optional veri dondurur.
+                 >get() methodu Optional <Integer>'i int'e cevirir.
+                 >Comparator.reverseOrder() methodu sorted yapilan verileri ters cevirir.
+                 >sorted() methodu parantez icerisinde istenilen siralama methoduna gore siralar.
+
+                  */
